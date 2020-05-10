@@ -167,7 +167,7 @@ class WPToolsSite(core.WPTools):
         - siteviews: <int> sitewide pageview totals over last WEEK
         - visitors: <int> sitewide unique visitor total over last WEEK
         - various counts: activeusers, admins, articles, edits, images
-          jobs, pages, queued-massmessages, siteviews, users, visitors
+        jobs, pages, queued-massmessages, siteviews, users, visitors
         """
         if wiki:
             self.params.update({'wiki': wiki})

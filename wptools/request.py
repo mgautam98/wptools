@@ -99,12 +99,12 @@ class WPToolsRequest(object):
         - https://curl.haxx.se/libcurl/c/curl_easy_setopt.html
 
         Proxy options (str or dict):
-          proxy = 'https://example.com:80'  # pycurl.PROXY
-          proxy = {
-            'PROXY':   <str> host,      # pycurl.PROXY
-            'PORT':    <int> port,      # pycurl.PROXYPORT
-            'USERPWD': <str> user:pwd,  # pycurl.PROXYUSERPWD
-          }
+        proxy = 'https://example.com:80'  # pycurl.PROXY
+        proxy = {
+        'PROXY':   <str> host,      # pycurl.PROXY
+        'PORT':    <int> port,      # pycurl.PROXYPORT
+        'USERPWD': <str> user:pwd,  # pycurl.PROXYUSERPWD
+        }
         """
 
         crl = pycurl.Curl()
